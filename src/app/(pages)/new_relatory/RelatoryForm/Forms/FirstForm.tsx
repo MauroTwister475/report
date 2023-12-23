@@ -137,7 +137,7 @@ export function FirstForm() {
           />
           <Form.Button
             type="button"
-            className="w-40"
+            className="w-48 ml-auto"
             onClick={() => onSetIsOpen()}
           >
             Selecionar Países
@@ -150,7 +150,6 @@ export function FirstForm() {
         {...register('comment')}
       >
       </textarea>
-
       <Form.Button
         className="w-max px-6 ml-auto rounded-md bg-main-500 disabled:cursor-not-allowed cursor-pointer"
       >
